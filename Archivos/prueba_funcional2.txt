@@ -1,0 +1,17 @@
+programa prueba 
+
+    entero operandob;
+    real operando;
+
+    leer(operandob);
+    leer(operando);
+
+    operandob = 1 * operandob;
+    operandob = 1290.5 - operandob;
+    operandob = operandob / 1;
+    operando = operando / 456.53 * 123.4;
+
+    escribir(operandob);
+    escribir(operando);
+
+finprograma 

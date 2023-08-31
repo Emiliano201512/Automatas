@@ -1,0 +1,10 @@
+programa ejemplo 
+entero multiple
+enteronum
+real numero
+=  numero  84.6 
+leer num
+= multiple +  123  597 
+= numero + numero *  12  10 
+escribir numero
+finprograma 

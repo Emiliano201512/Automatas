@@ -1,0 +1,31 @@
+Árbol sintáctico abstracto:
+|       numero        |            real         |
+
+|         84.6        |            real         |
+
+|                     |                         |
+
+|          123        |          entero         |
+
+|          597        |          entero         |
+
+|     multiple        |          entero         |
+
+|    expresión        |          entero         |
+
+|                     |                         |
+
+|           12        |          entero         |
+
+|           10        |          entero         |
+
+|       numero        |            real         |
+
+|    expresión        |            real         |
+
+|       numero        |            real         |
+
+|    expresión        |            real         |
+
+|                     |                         |
+

@@ -1,0 +1,13 @@
+programa pruebaerror  
+
+    entero operando1;
+    real numero;
+
+    leer opeando1_;
+    
+    operando1 = 10010 + 1001;
+    numero = numero + 123*101;
+
+    escribir(res);
+
+finprograma 

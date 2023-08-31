@@ -1,0 +1,25 @@
+<inicio> ¬> programa identificador <sentencias> finprograma 
+<sentencias> ¬> <sent> <sentf> 
+<sentf> ¬> <sent> <sentf> 
+<sentf> ¬> ε 
+<sent> ¬> <tipo> <listaid> ; 
+<sent> ¬> identificador = <expresion> ; 
+<sent> ¬> leer ( <id> ) ; 
+<sent> ¬> escribir ( <expresion> ) ; 
+<listaid> ¬> identificador <listaf> 
+<listaf> ¬> , identificador <listaf> 
+<listaf> ¬> ε 
+<expresion> ¬> <expr> <exprf> 
+<exprf> ¬> <oper> <expr> <exprf> 
+<exprf> ¬> ε 
+<id> ¬> identificador 
+<expr> ¬> identificador 
+<expr> ¬> litentero 
+<expr> ¬> litreal 
+<tipo> ¬> entero  
+<tipo> ¬> real 
+<oper> ¬> + 
+<oper> ¬> - 
+<oper> ¬> / 
+<oper> ¬> * 
+<system_goal> ¬> <inicio> $ 
